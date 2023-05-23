@@ -7,7 +7,7 @@ public class playermovements : MonoBehaviour
 {
     PhotonView view;
     [SerializeField] public float timeToStop = 0.5f;
-    [SerializeField] public float speedIncreasePerPress = 1.0f;
+    [SerializeField] public float speedIncreasePerPress = 0.5f;
     [SerializeField] public float maxSpeed = 2000.0f;
 
     [SerializeField] float lastpresstime = 0.0f;
